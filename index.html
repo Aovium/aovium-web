@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aovium — Custom Software &amp; Technology Services</title>
+  <meta name="description" content="Aovium LLC is a veteran-owned software and technology services company delivering custom solutions for federal and commercial clients.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/clean_logo_flat.svg">
+</head>
+<body>
+
+  <!-- ═══════════════ NAV ═══════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo" aria-label="Aovium home">
+        <svg viewBox="0 0 1320 1257" width="32" height="30" aria-hidden="true">
+          <g fill="currentColor">
+            <path d="M775 116 L618 122 L282 733 L470 676 Z"/>
+            <path d="M816 416 L741 549 L857 767 L1053 847 Z"/>
+            <path d="M384 831 L194 882 L66 1111 L223 1112 Z"/>
+            <path d="M470 980 L1121 981 L1192 1102 L364 1109 Z"/>
+          </g>
+        </svg>
+        <span>Aovium</span>
+      </a>
+      <div class="nav__links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#contact" class="nav__cta">Get in Touch</a>
+      </div>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobile-menu">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#contact">Get in Touch</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <canvas id="grid-canvas" aria-hidden="true"></canvas>
+    </div>
+    <div class="hero__content">
+  
+      <h1 class="hero__title">
+        <span class="hero__title-line reveal" style="--delay: 0.15s">Precision Software.</span>
+        <span class="hero__title-line reveal" style="--delay: 0.3s">Federal Ready.</span>
+      </h1>
+      <p class="hero__sub reveal" style="--delay: 0.5s">
+        Custom software development, systems integration, and technical consulting
+        for agencies that demand reliability.
+      </p>
+      <div class="hero__proof reveal" style="--delay: 0.65s">
+        <span class="proof-tag">Veteran-Owned</span>
+        <span class="proof-sep" aria-hidden="true"></span>
+        <span class="proof-tag">SDVOSB</span>
+      </div>
+      <div class="hero__actions reveal" style="--delay: 0.8s">
+        <a href="#contact" class="btn btn--primary">Contact Us</a>
+        <a href="#capabilities" class="btn btn--ghost">View Capabilities</a>
+      </div>
+    </div>
+    <div class="hero__scroll reveal" style="--delay: 1.1s" aria-hidden="true">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ SERVICES ═══════════════ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-label scroll-reveal">What We Deliver</div>
+      <h2 class="section-title scroll-reveal">Services</h2>
+      <div class="services__grid">
+
+        <div class="service-card scroll-reveal" style="--delay: 0s">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Software Development</h3>
+          <p class="service-card__desc">
+            Secure, maintainable web applications and platforms built for mission-critical
+            environments. Modern architectures designed to meet federal compliance
+            and security requirements from day one.
+          </p>
+        </div>
+
+        <div class="service-card scroll-reveal" style="--delay: 0.1s">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="3"/><path d="M12 1v4m0 14v4M4.22 4.22l2.83 2.83m9.9 9.9l2.83 2.83M1 12h4m14 0h4M4.22 19.78l2.83-2.83m9.9-9.9l2.83-2.83"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Systems Integration</h3>
+          <p class="service-card__desc">
+            Bridging legacy infrastructure with modern platforms. We connect
+            disparate systems into cohesive, interoperable environments
+            that reduce friction and accelerate mission delivery.
+          </p>
+        </div>
+
+        <div class="service-card scroll-reveal" style="--delay: 0.2s">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Technical Consulting</h3>
+          <p class="service-card__desc">
+            Strategic guidance on architecture, modernization, and technology
+            selection. We help stakeholders navigate procurement constraints
+            and deliver solutions that meet both technical and compliance goals.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__layout">
+        <div class="about__text">
+          <div class="section-label scroll-reveal">Who We Are</div>
+          <h2 class="section-title scroll-reveal">Why Aovium</h2>
+          <div class="about__body scroll-reveal">
+            <p>
+              Aovium is a veteran-owned technology firm built on a straightforward
+              principle: federal agencies deserve software partners who understand
+              both the technical demands and the accountability frameworks that
+              govern public-sector work.
+            </p>
+            <p>
+              Our team brings hands-on experience in secure application development,
+              enterprise systems integration, and the compliance landscape surrounding
+              federal IT. We build software that ships on schedule, meets authority-to-operate
+              requirements, and serves the mission long after deployment.
+            </p>
+            <p>
+              Based in Washington, we work with agencies and prime contractors
+              who value clear communication, transparent delivery, and engineering
+              discipline over sales theater.
+            </p>
+          </div>
+        </div>
+        <div class="about__stats scroll-reveal">
+          <div class="stat">
+            <span class="stat__accent" aria-hidden="true">//</span>
+            <span class="stat__label">Veteran-Owned</span>
+            <span class="stat__detail">Service-Disabled Veteran-Owned Small Business</span>
+          </div>
+          <div class="stat">
+            <span class="stat__accent" aria-hidden="true">//</span>
+            <span class="stat__label">Security-First</span>
+            <span class="stat__detail">Compliance and security integrated from day one, not patched in later</span>
+          </div>
+          <div class="stat">
+            <span class="stat__accent" aria-hidden="true">//</span>
+            <span class="stat__label">Engineer-Led</span>
+            <span class="stat__detail">Every project is built and delivered by the people who designed it</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CAPABILITIES ═══════════════ -->
+  <section class="capabilities" id="capabilities">
+    <div class="container">
+      <div class="section-label scroll-reveal">Federal Readiness</div>
+      <h2 class="section-title scroll-reveal">Capabilities</h2>
+      <div class="cap__grid">
+
+        <div class="cap-block scroll-reveal" style="--delay: 0s">
+          <h3 class="cap-block__title">Core Competencies</h3>
+          <ul class="cap-list">
+            <li>Custom Web Application Development</li>
+            <li>Enterprise Systems Integration</li>
+            <li>Cloud Architecture &amp; Migration</li>
+            <li>Technical Strategy &amp; Consulting</li>
+            <li>Legacy System Modernization</li>
+            <li>Secure Software Engineering</li>
+          </ul>
+        </div>
+
+        <div class="cap-block scroll-reveal" style="--delay: 0.1s">
+          <h3 class="cap-block__title">Certifications &amp; Registrations</h3>
+          <ul class="cap-list">
+            <li>Service-Disabled Veteran-Owned Small Business (SDVOSB)</li>
+            <li>SAM.gov Registered</li>
+            <li>Washington State LLC — Active</li>
+          </ul>
+
+        </div>
+
+        <div class="cap-block scroll-reveal" style="--delay: 0.2s">
+          <h3 class="cap-block__title">Differentiators</h3>
+          <ul class="cap-list cap-list--diff">
+            <li>
+              <strong>Direct Accountability</strong>
+              <span>Every engagement is led by firm principals — no layers of project managers between you and the engineers.</span>
+            </li>
+            <li>
+              <strong>Compliance-First Engineering</strong>
+              <span>Security and compliance requirements are integrated from project inception, not bolted on at the end.</span>
+            </li>
+            <li>
+              <strong>Transparent Delivery</strong>
+              <span>Clear milestones, documented progress, and open communication throughout every phase.</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__layout">
+        <div class="contact__text">
+          <div class="section-label scroll-reveal">Start a Conversation</div>
+          <h2 class="section-title scroll-reveal">Get in Touch</h2>
+          <p class="contact__desc scroll-reveal">
+            Whether you're exploring a teaming arrangement, evaluating vendors for
+            an upcoming solicitation, or have a project that needs the right technical
+            partner — we'd like to hear from you.
+          </p>
+        </div>
+        <div class="contact__info scroll-reveal">
+          <div class="contact-item">
+            <span class="contact-item__label">General &amp; Procurement Inquiries</span>
+            <a href="mailto:contact@aovium.com" class="contact-item__value">contact@aovium.com</a>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <svg viewBox="0 0 1320 1257" width="24" height="23" aria-hidden="true">
+          <g fill="currentColor">
+            <path d="M775 116 L618 122 L282 733 L470 676 Z"/>
+            <path d="M816 416 L741 549 L857 767 L1053 847 Z"/>
+            <path d="M384 831 L194 882 L66 1111 L223 1112 Z"/>
+            <path d="M470 980 L1121 981 L1192 1102 L364 1109 Z"/>
+          </g>
+        </svg>
+        <span>Aovium LLC</span>
+      </div>
+      <span class="footer__copy">&copy; 2026 Aovium LLC. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

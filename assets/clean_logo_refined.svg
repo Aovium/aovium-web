@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 1257" role="img" aria-label="Refined vector logo">
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#202731"/>
+      <stop offset="1" stop-color="#17202a"/>
+    </linearGradient>
+    <filter id="lift" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="12" stdDeviation="6" flood-color="#111820" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+  <g filter="url(#lift)" fill="url(#surface)">
+    <path d="M775 116 L618 122 L282 733 L470 676 Z"/>
+    <path d="M816 416 L741 549 L857 767 L1053 847 Z"/>
+    <path d="M384 831 L194 882 L66 1111 L223 1112 Z"/>
+    <path d="M470 980 L1121 981 L1192 1102 L364 1109 Z"/>
+  </g>
+</svg>
